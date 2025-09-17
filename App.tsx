@@ -1,11 +1,12 @@
+
 import React, { useState } from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import IngredientInput from './components/IngredientInput';
-import RecipeCard from './components/RecipeCard';
-import Loader from './components/Loader';
-import { generateRecipes, identifyIngredientsFromImage, generateImageForRecipe } from './services/geminiService';
-import type { Recipe, HistoryEntry } from './types';
+import Header from './components/Header.tsx';
+import Footer from './components/Footer.tsx';
+import IngredientInput from './components/IngredientInput.tsx';
+import RecipeCard from './components/RecipeCard.tsx';
+import Loader from './components/Loader.tsx';
+import { generateRecipes, identifyIngredientsFromImage, generateImageForRecipe } from './services/geminiService.ts';
+import type { Recipe, HistoryEntry } from './types.ts';
 
 // --- History Modal Component ---
 interface HistoryModalProps {
