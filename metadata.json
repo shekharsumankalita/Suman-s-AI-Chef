@@ -1,0 +1,7 @@
+{
+  "name": "Suman's AI Chef",
+  "description": "Generate delicious recipes based on the ingredients you have available in your pantry. Let AI be your personal chef and discover new culinary creations with what you already own.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
